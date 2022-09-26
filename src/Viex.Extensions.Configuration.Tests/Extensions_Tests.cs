@@ -92,7 +92,7 @@ public class Extensions_Tests
     private static IConfiguration GetConfiguration()
     {
         return new ConfigurationBuilder()
-            .AddJsonFile(@"C:\GitHub\Viex.Extensions\src\Viex.Extensions\Viex.Extensions.Configuration.Tests\appsettings.Test.json")
+            .AddJsonFile(@"C:\GitHub\Viex.Extensions\src\Viex.Extensions.Configuration.Tests\appsettings.Test.json")
             .Build();
     }
 }
